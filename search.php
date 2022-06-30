@@ -61,7 +61,7 @@ echo "The current date and time  $DateAndTime2.";
  {  
       $tag = preg_replace("#[^a-zA-Z0-9_]#", '', $_GET["tag"]);  
       echo '<h1>' . $tag . '</h1>';  
-      $connect = mysqli_connect("localhost", "root", "lolita1873", "fce");  
+      $connect = mysqli_connect("localhost", "root", "password", "fce");  
       $query = "SELECT * FROM comentarios where comentario LIKE '%".$tag."%'";  
       $result = mysqli_query($connect, $query);  
       if(mysqli_num_rows($result) > 0)  
@@ -83,7 +83,7 @@ echo "The current date and time  $DateAndTime2.";
  <?php 
   // Se conecta al SGBD 
   $user=$_SESSION["username"]; 
-  if(!($conexion = mysql_connect("localhost", "root", "lolita1873"))) 
+  if(!($conexion = mysql_connect("localhost", "root", "password"))) 
     die("Error: No se pudo conectar");
  $user=$_SESSION['username'] ;
   // Selecciona la base de datos 
