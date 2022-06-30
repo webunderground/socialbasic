@@ -1,6 +1,0 @@
-<?php
-define('DBUSER','root');
-define('DBPWD','lolita1873');
-define('DBHOST','localhost');
-define('DBNAME','fce');
-?>
