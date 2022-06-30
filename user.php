@@ -71,7 +71,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
  {  
       $tag = preg_replace("#[^a-zA-Z0-9_]#", '', $_GET["tag"]);  
       echo '<h1>' . $tag . '</h1>';  
-      $connect = mysqli_connect("localhost", "root", "lolita1873", "fce");  
+      $connect = mysqli_connect("localhost", "root", "password", "fce");  
       $query = "SELECT * FROM comentarios where usuario LIKE '%".$tag."%'";  
       $result = mysqli_query($connect, $query);  
       if(mysqli_num_rows($result) > 0)  
@@ -92,7 +92,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 
 <?php 
   // Se conecta al SGBD 
-  if(!($conexion = mysql_connect("localhost", "root", "lolita1873"))) 
+  if(!($conexion = mysql_connect("localhost", "root", "password"))) 
     die("Error: No se pudo conectar");
  
   // Selecciona la base de datos 
