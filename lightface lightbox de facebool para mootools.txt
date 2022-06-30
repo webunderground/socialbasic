@@ -1,0 +1,19 @@
+LightFace: Lightbox de Facebook para MooTools
+
+https://davidwalsh.name/facebook-lightbox
+
+
+https://nosinmiscookies.com/evolucion-facebook-10-aniversario-historia/
+
+
+https://www.esthersola.com/integrar-redes-sociales-web/
+
+https://devcode.la/tutoriales/como-clonar-un-sitio-web/
+
+
+
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v8.0&appId=385491299477041&autoLogAppEvents=1" nonce="qNilFfun"></script>
+
+
+<div class="fb-page" data-href="https://www.facebook.com/facebook" data-tabs="timeline" data-width="" data-height="" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/facebook" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/facebook">Facebook</a></blockquote></div>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Basic LightFace Test</title>
+	<style>
+		@import "http://localhost/socialface/css/LightFace.css";
+	</style>
+	<link rel="stylesheet" href="css/LightFace.css" />
+	<link rel="stylesheet" href="css/boton.css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/mootools/1.3.0/mootools.js"></script>
+	<script src="js/LightFace.js"></script>
+	<script src="js/LightFace.js"></script>
+	<script src="js/LightFace.IFrame.js"></script>
+	<script src="js/LightFace.Image.js"></script>
+	<script src="js/LightFace.Request.js"></script>
+	<script>
+		window.addEvent('domready',function(){
+			
+			var index = 0;
+			var images = [
+				'worldcup-post-tx3.jpg',
+				'http://davidwalsh.name/dw-content/slideshow/cricci1.jpg',
+				'http://davidwalsh.name/dw-content/slideshow/cricci2.jpg',
+				'http://davidwalsh.name/dw-content/slideshow/cricci3.jpg',
+				'http://davidwalsh.name/dw-content/slideshow/cricci4.jpg',
+				'http://davidwalsh.name/dw-content/slideshow/cricci5.jpg'
+			];
+			light = new LightFace.Image({
+				title: 'Image ' + (index + 1),
+				fadeDuration: 100,
+				//fadeDelay: 400,
+				keys: {
+					left: function() {
+						if(index!= 0) this.load(images[--index],'Image ' + (index + 1));
+					},
+					right: function() {
+						if(index != images.length-1) this.load(images[++index],'Image ' + (index + 1));
+					},
+					esc: function() {
+						this.close();
+					}
+				}
+			});
+			
+			document.id('start').addEvent('click',function() {
+				load = light.load(images[0],'Image 1').open();
+			});
+			
+		});
+	</script>
+<script type="text/javascript"></script><link rel="stylesheet" type="text/css" href="/B1D671CF-E532-4481-99AA-19F420D90332/netdefender/hui/ndhui.css" /><script type="text/javascript"></script><link rel="stylesheet" type="text/css" href="/B1D671CF-E532-4481-99AA-19F420D90332/netdefender/hui/ndhui.css" /><script type="text/javascript"></script><link rel="stylesheet" type="text/css" href="/B1D671CF-E532-4481-99AA-19F420D90332/netdefender/hui/ndhui.css" /></head>
+<body><script type="text/javascript" language="javascript" src="/B1D671CF-E532-4481-99AA-19F420D90332/netdefender/hui/ndhui.js?0=0&amp;0=0&amp;0=0"></script><script type="text/javascript" language="javascript" src="/B1D671CF-E532-4481-99AA-19F420D90332/netdefender/hui/ndhui.js?0=0&amp;0=0&amp;0=0"></script><script type="text/javascript" language="javascript" src="/B1D671CF-E532-4481-99AA-19F420D90332/netdefender/hui/ndhui.js?0=0&amp;0=0&amp;0=0"></script>
+	
+	<h3>Gallery Demo</h3>
+	<p>
+		Click the button below to launch it and make it happen.
+	</p>
+	<a class="uibutton" href="#">Button</a>
+<button class="uibutton" type="submit">Button</button>
+<input class="uibutton" type="submit" value="Button">
+<a class="uibutton icon add" href="#">New message</a>
+ <p><a class="uibutton" href="#button">Change picture</a></p>
+                <p><button class="uibutton confirm" type="submit">Log in</button></p>
+                <p><input class="uibutton confirm" type="submit" value="Publish"> <input class="uibutton" type="submit" value="Save as draft"></p>
+                <p><a class="uibutton special" href="#button">Request an invitation</a></p>
+	<button id="start">Start Show</button>
+
+</body>
+</html>
