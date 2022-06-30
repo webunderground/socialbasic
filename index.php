@@ -154,27 +154,6 @@ echo"<div class='tabHeader'>";
      
      <p><strong>Webdesigntuts+ is part of the Tuts+ Network. Here's some of our other blogs</strong></p>
      
-     <a href="http://psd.tutsplus.com/" target="_blank">psdtuts+</a>
-     <p>Adobe Photoshop is a fantastically powerful program and there are a million ways to do anything, we hope that reading Psdtuts+ will help our readers learn a few tricks, techniques and tips that they might not have seen before and help them maximize their creative potential!</p>
-     <a href="http://net.tutsplus.com/" target="_blank">nettuts+</a>
-     <p>Nettuts+ is a site aimed at web developers and designers offering tutorials and articles on technologies, skills and techniques to improve how you design and build websites. We cover HTML, CSS, Javascript, CMS’s, PHP and Ruby on Rails.</p>
-     <a href="http://vector.tutsplus.com/" target="_blank">vectortuts+</a>
-     <p>Vectortuts+ is a blog of tutorials, articles, freebies and more on all things vector! We publish tutorials on techniques and effects to make awesome vector graphics in programs like Adobe Illustrator and Inkscape.</p>
-     <a href="http://audio.tutsplus.com/" target="_blank">audiotuts+</a>
-     <p>Audiotuts+ is a blog for musicians, producers and audio junkies! We feature tutorials on the tools and techniques to record, produce, mix and master tracks. We also feature weekly articles for the music obsessive. </p>
-     <a href="http://ae.tutsplus.com/" target="_blank">aetuts+</a>
-     <p>Aetuts+ is a site made to house and showcase some of the best After Effects tutorials around. We publish tutorials that not only produce great effects, but explain them in a friendly, approachable manner. We also stock up links to tutorials, articles, presets and plugins from around the web to help you get the most out of After Effects.</p>
-     <a href="http://active.tutsplus.com/" target="_blank">activetuts+</a>
-     <p>Activetuts+ — named for the awsomely interactive stuff it will teach you to create — is a site aimed at designers and developers, offering tutorials, tips and articles to improve your skills at creating browser-based games and apps. We publish tutorials that not only produce great graphics and effects, but explain in a friendly, approachable manner, covering Flash, Unity, Silverlight and HTML5.</p>
-     <a href="http://cg.tutsplus.com/" target="_blank">cgtuts+</a>
-     <p>Cgtuts+ is a source of learning on all aspects of computer graphics. We pump out regular tutorials on Maya, 3Ds Max, Cinema 4D, ZBrush, Blender, Mudbox and more. We cater to beginner, intermediate and advanced CG artists.</p>
-     <a href="http://photo.tutsplus.com/" target="_blank">phototuts+</a>
-     <p>Phototuts+ is a source of learning on all aspects of photography. We pump out regular tutorials on composition, equipment settings, post-processing, film photography, retouching and much more. If you love photography, you will find a treasure trove of useful advice at Phototuts+.</p>
-     <a href="http://mobile.tutsplus.com/" target="_blank">mobiletuts+</a>
-     <p>Mobiletuts+ is all about quality tutorials for mobile developers – all mobile developers. Topics will include native development with the iPhone, Android, Windows and Blackberry platforms, cross-platform development with tools like Appcelerator and Phone Gap, and techniques for building mobile accessible web sites with HTML 5.</p>
-     <a href="http://wp.tutsplus.com/" target="_blank">wptuts+</a>
-     <p>Wptuts+ is a site dedicated to teaching people how to use WordPress, develop widgets, plugins and themes, successfully scale sites, find interesting WordPress resources, and build a freelance business around the platform. Over 25 million people have chosen WordPress to power the place on the web they call “home”, and it’s by far and away the most successful blogging platform online.</p>
-     
      
      </ul>
     </div><!--End Tab 4 -->
